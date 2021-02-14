@@ -46,10 +46,12 @@ body {
 /* .mainHeader */
 /********************************************************/
 .mainHeader {
+	padding: 24px 0;
 	margin-bottom: 64px;
 }
 
-.mainHeader .brmodeloLogo{
+.brmodeloLogo h1 {
+	margin: 0;
 	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
 }
 
