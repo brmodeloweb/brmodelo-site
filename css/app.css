@@ -1,13 +1,17 @@
 /********************************************************/
 /* General */
 /********************************************************/
+html {
+	background-color: rgba(24,214,129,1);
+}
+
 body {
 	font-size: 10pt;
 	font-family: 'Fira Sans', sans-serif;
 	height: 100%;
 	margin: 0;
 	color: #fff;
-	background: rgb(61,153,112);
+	background: rgba(24,214,129,1);
 	background: linear-gradient(180deg, rgba(61,153,112,1) 0%, rgba(24,214,129,1) 70%);
 }
 
@@ -16,6 +20,7 @@ body {
 /********************************************************/
 .wrapper {
 	max-width: 1000px;
+	padding: 0 24px;
 	margin: 0 auto;
 }
 
@@ -70,7 +75,7 @@ body {
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 48px;
+	font-size: 3.6em;
 	letter-spacing: 0.06;
 	line-height: 90%;
 	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
@@ -108,7 +113,7 @@ body {
 	height: 200px;
 	z-index: 1;
 	border-radius: 3px;
-	background-color: rgba(255, 255, 255, 0.4); 
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .heroImage:before {
