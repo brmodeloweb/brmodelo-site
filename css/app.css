@@ -1,0 +1,133 @@
+/********************************************************/
+/* General */
+/********************************************************/
+body {
+	font-size: 10pt;
+	font-family: 'Fira Sans', sans-serif;
+	height: 100%;
+	margin: 0;
+	color: #fff;
+	background: rgb(61,153,112);
+	background: linear-gradient(180deg, rgba(61,153,112,1) 0%, rgba(24,214,129,1) 70%);
+}
+
+/********************************************************/
+/* .wrapper */
+/********************************************************/
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/********************************************************/
+/* .button */
+/********************************************************/
+.button {
+	display: inline-block;
+	padding: 8px 18px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.button.signup {
+	background-color: #00d475;
+}
+
+/********************************************************/
+/* .mainHeader */
+/********************************************************/
+.mainHeader {
+	margin-bottom: 64px;
+}
+
+.mainHeader .brmodeloLogo{
+	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
+}
+
+.mainHeader > .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.userOptions > .button {
+	margin-left: 12px;;
+}
+
+/********************************************************/
+/* .heroHeader */
+/********************************************************/
+.heroHeader {
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.heroHeader h2 {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 48px;
+	letter-spacing: 0.06;
+	line-height: 90%;
+	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
+}
+
+.heroHeader p {
+	font-size: 1.6em;
+	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
+}
+
+/********************************************************/
+/* .heroArea */
+/********************************************************/
+.heroArea {
+	background-image: url(../img/wave-site.svg);
+	background-position: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 64px;
+}
+
+/********************************************************/
+/* .heroImage */
+/********************************************************/
+.heroImage {
+	display: block;
+	position: relative;
+}
+
+.heroImage:before,
+.heroImage:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	height: 200px;
+	z-index: 1;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.heroImage:before {
+	width: calc(100% - 24px);
+	top: -12px;
+	left: 12px
+}
+
+.heroImage:after {
+	width: calc(100% - 48px);
+	top: -24px;
+	left: 24px;
+}
+
+.heroImage > img {
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+	border-radius: 3px;
+	box-shadow: 0 4px 4px rgba(0,0,0, 0.25);
+}
