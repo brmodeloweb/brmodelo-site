@@ -37,10 +37,17 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+	transition: all 0.2s ease-in-out;
 }
 
-.button.signup {
-	background-color: #00d475;
+.button:hover {
+	color: rgba(61,153,112,1);
+	background-color: #fff;
+}
+
+.button.large {
+	font-size: 1.6em;
+	padding: 12px 18px;
 }
 
 /********************************************************/
