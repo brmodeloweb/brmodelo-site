@@ -2,7 +2,7 @@
 /* General */
 /********************************************************/
 html {
-	background-color: rgba(24,214,129,1);
+	background-color: rgba(61,153,112,1);
 }
 
 body {
@@ -11,8 +11,8 @@ body {
 	height: 100%;
 	margin: 0;
 	color: #fff;
-	background: rgba(24,214,129,1);
-	background: linear-gradient(180deg, rgba(61,153,112,1) 0%, rgba(24,214,129,1) 70%);
+	background: rgba(61,153,112,1);
+	background: linear-gradient(180deg, rgba(24,214,129,1) 0%, rgba(61,153,112,1)  100%);
 }
 
 /********************************************************/
