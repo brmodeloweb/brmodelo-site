@@ -265,11 +265,17 @@ p {font-size: 1.6em;}
 }
 
 /********************************************************/
+/* Media queries: Small screens < 430px */
+/********************************************************/
 @media only screen and (min-width: 430px) {
 
-	.mainHeader {
-		margin-bottom: 64px;
-	}
+	h1 {font-size: 2.6em;}
+	h2 {font-size: 3.8em;}
+	h3 {font-size: 3.2em;}
+	h4 {font-size: 2.0em;}
+	h5 {font-size: 1.8em;}
+	h6 {font-size: 1.8em;}
+	p {font-size: 1.6em;}
 
 	.userOptions {
 		display: block;
@@ -279,8 +285,24 @@ p {font-size: 1.6em;}
 		margin-left: 12px;
 	}
 
-	.heroHeader h2 {
-		font-size: 3.6em;
+	.featureItem {
+		flex: 0 1 calc(50% - 2em - (24px * 1.5));
+	}
+
+	.featureItemHeader {
+		text-align: left;
+	}
+
+	.featureItemHeader > svg {
+		margin-right: 16px;
+	}
+
+	.featureItemHeader h4 {
+		line-height: 1.1em;
+	}
+
+}
+
 	}
 
 }
