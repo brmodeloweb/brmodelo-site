@@ -303,6 +303,17 @@ p {font-size: 1.6em;}
 
 }
 
+/********************************************************/
+/* Media queries: Medium screens < 740px (iPhone X horizontal mode) */
+/********************************************************/
+@media only screen and (min-width: 740px) {
+
+	h2 {font-size: 4.8em;}
+	h3 {font-size: 3.8em;}
+
+	.featureItem {
+		flex: 0 1 calc(33% - 3em - (24px * 1.5));
+		margin-bottom: 3em;
 	}
 
 }
