@@ -2,18 +2,35 @@
 /* General */
 /********************************************************/
 html {
-	background-color: rgba(24,214,129,1);
+	background-color: rgba(61,153,112,1);
 }
 
 body {
-	font-size: 10pt;
+	font-size: 7.5pt; /* 1em == 10px */
 	font-family: 'Fira Sans', sans-serif;
 	height: 100%;
 	margin: 0;
 	color: #fff;
-	background: rgba(24,214,129,1);
-	background: linear-gradient(180deg, rgba(61,153,112,1) 0%, rgba(24,214,129,1) 70%);
+	background: rgba(61,153,112,1);
+	background: linear-gradient(180deg, rgba(24,214,129,1) 0%, rgba(61,153,112,1)  100%);
 }
+
+a,
+a:visited {
+	color: #5835FF;
+	text-shadow: none;
+}
+
+/********************************************************/
+/* Global font-size */
+/********************************************************/
+h1 {font-size: 2.6em;}
+h2 {font-size: 3.2em;}
+h3 {font-size: 2.8em;}
+h4 {font-size: 2.2em;}
+h5 {font-size: 2.0em;}
+h6 {font-size: 1.8em;}
+p {font-size: 1.6em;}
 
 /********************************************************/
 /* .wrapper */
@@ -27,11 +44,13 @@ body {
 /********************************************************/
 /* .button */
 /********************************************************/
-.button {
+.button,
+.button:visited {
 	display: inline-block;
 	padding: 8px 18px;
 	border: 1px solid #fff;
 	border-radius: 2px;
+	font-size: 1.4em;
 	font-weight: 700;
 	letter-spacing: 0.05em;
 	text-align: center;
@@ -88,16 +107,13 @@ body {
 
 .heroHeader h2 {
 	max-width: 800px;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 2.4em;
+	margin: 0 auto;
 	letter-spacing: 0.06;
-	line-height: 90%;
 	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
 }
 
 .heroHeader p {
-	font-size: 1.6em;
+	font-size: 1.8em;
 	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
 }
 
@@ -118,6 +134,7 @@ body {
 .heroImage {
 	display: block;
 	position: relative;
+	margin: 0 auto;
 }
 
 .heroImage:before,
@@ -153,13 +170,112 @@ body {
 }
 
 /********************************************************/
-/* Media queries */
+/* .featuresArea */
+/********************************************************/
+.featuresArea h3 {
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.25);
+}
+
+.featureList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+
+/********************************************************/
+/* .featureItem */
+/********************************************************/
+.featureItem {
+	position: relative;
+	overflow: hidden;
+	flex: 0 1 100%;
+	padding: 24px;
+	margin-bottom: 2em;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+	background: rgba(255,255,255, 0.1);
+	box-shadow: 1px 2px 2px rgba(0,0,0, 0.1);
+}
+
+.featureItem.featureSoon:before {
+	content: "Em breve";
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: -29px;
+	transform: rotate(40deg);
+	padding: 3px 30px;
+	background-color: #fff;
+	color: rgba(61,153,112,1);
+	font-size: 1.4em;
+	font-weight: 600;
+	text-shadow: none;
+	box-shadow: 1px 2px 2px rgba(0,0,0, 0.2);
+}
+
+/********************************************************/
+/* .featureItemHeader */
+/********************************************************/
+.featureItemHeader {
+	display: flex;
+	justify-content: center;
+}
+
+.featureItemHeader svg {
+	width: 32px;
+	margin-right: 8px;
+}
+
+.featureItemHeader > svg path {
+	fill: #fff;
+}
+
+.featureItemHeader .verticalIcon {
+	width: 24px;
+}
+
+.featureItemHeader h4 {
+	margin: 0;
+}
+
+/********************************************************/
+/* .mainFooter */
+/********************************************************/
+.mainFooter {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.mainFooter p {
+	font-size: 1.2em;
+	margin: 0;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+}
+
+.octicon {
+	transition: all 0.2s ease-in-out;
+	fill: rgba(255,255,255, 0.6);
+}
+
+.octicon:hover {
+	fill: rgba(255,255,255, 1);
+}
+
+/********************************************************/
+/* Media queries: Small screens < 430px */
 /********************************************************/
 @media only screen and (min-width: 430px) {
 
-	.mainHeader {
-		margin-bottom: 64px;
-	}
+	h1 {font-size: 2.6em;}
+	h2 {font-size: 3.8em;}
+	h3 {font-size: 3.2em;}
+	h4 {font-size: 2.0em;}
+	h5 {font-size: 1.8em;}
+	h6 {font-size: 1.8em;}
+	p {font-size: 1.6em;}
 
 	.userOptions {
 		display: block;
@@ -169,8 +285,35 @@ body {
 		margin-left: 12px;
 	}
 
-	.heroHeader h2 {
-		font-size: 3.6em;
+	.featureItem {
+		flex: 0 1 calc(50% - 2em - (24px * 1.5));
+	}
+
+	.featureItemHeader {
+		text-align: left;
+	}
+
+	.featureItemHeader > svg {
+		margin-right: 16px;
+	}
+
+	.featureItemHeader h4 {
+		line-height: 1.1em;
+	}
+
+}
+
+/********************************************************/
+/* Media queries: Medium screens < 740px (iPhone X horizontal mode) */
+/********************************************************/
+@media only screen and (min-width: 740px) {
+
+	h2 {font-size: 4.8em;}
+	h3 {font-size: 3.8em;}
+
+	.featureItem {
+		flex: 0 1 calc(33% - 3em - (24px * 1.5));
+		margin-bottom: 3em;
 	}
 
 }
