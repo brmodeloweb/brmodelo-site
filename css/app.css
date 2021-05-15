@@ -201,8 +201,8 @@ p {font-size: 1.6em;}
 	content: "Em breve";
 	display: block;
 	position: absolute;
-	top: 12px;
-	right: -29px;
+	top: 13px;
+	right: -31px;
 	transform: rotate(40deg);
 	padding: 3px 30px;
 	background-color: #fff;
