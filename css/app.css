@@ -247,19 +247,16 @@ p {font-size: 1.6em;}
 	margin-bottom: 32px;
 }
 
+.mainFooter .github-stars {
+	transform: scale(1.2);
+	opacity: 0.9;
+	margin-bottom: 12px;
+}
+
 .mainFooter p {
 	font-size: 1.2em;
 	margin: 0;
 	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
-}
-
-.octicon {
-	transition: all 0.2s ease-in-out;
-	fill: rgba(255,255,255, 0.6);
-}
-
-.octicon:hover {
-	fill: rgba(255,255,255, 1);
 }
 
 /********************************************************/
