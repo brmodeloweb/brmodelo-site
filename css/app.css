@@ -198,19 +198,29 @@ p {font-size: 1.6em;}
 }
 
 .featureItem.featureSoon:before {
-	content: "Em breve";
 	display: block;
 	position: absolute;
-	top: 13px;
-	right: -31px;
 	transform: rotate(40deg);
 	padding: 3px 30px;
 	background-color: #fff;
 	color: rgba(61,153,112,1);
 	font-size: 1.4em;
 	font-weight: 600;
+	text-align: center;
 	text-shadow: none;
 	box-shadow: 1px 2px 2px rgba(0,0,0, 0.2);
+}
+
+.featureItem.featureSoon.en-content:before {
+	content: "Soon";
+	top: 7px;
+	right: -27px;
+}
+
+.featureItem.featureSoon.pt-br-content:before {
+	content: "Em breve";
+	top: 13px;
+	right: -31px;
 }
 
 /********************************************************/
