@@ -88,13 +88,34 @@ p {font-size: 1.6em;}
 	justify-content: space-between;
 }
 
-.userOptions {
+/********************************************************/
+/* .lang-selector */
+/********************************************************/
+.lang-selector {
+	list-style-type: none;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	padding: 0;
 }
 
-.userOptions .button:first-child {
-	margin-bottom: 6px;
+.lang-selector li,
+.lang-selector a {
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+}
+
+.lang-selector li {
+	font-size: 1.5em;
+}
+
+.lang-selector li:first-child::after {
+	display: inline-block;
+	content: " | ";
+	margin: 0 4px;
+}
+
+.lang-selector a {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
 }
 
 /********************************************************/
@@ -116,10 +137,8 @@ p {font-size: 1.6em;}
 	text-shadow: 0 4px 4px rgba(0,0,0, 0.25);
 }
 
-.heroHeader .github-stars {
-	opacity: 0.9;
-	margin-top: 24px;
-	transform: 	scale(1.1);
+.heroHeader .ctaArea > a {
+	margin: 0 8px 8px 0;
 }
 
 /********************************************************/
@@ -259,34 +278,14 @@ p {font-size: 1.6em;}
 /* .mainFooter */
 /********************************************************/
 .mainFooter {
+	text-align: center;
 	margin-bottom: 32px;
 }
 
 .open-source {
-	text-align: center;
-}
-
-.open-source,
-.lang-selector li {
 	font-size: 1.5em;
+	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
-}
-
-.lang-selector {
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	padding: 0;
-}
-
-.lang-selector li:first-child::after {
-	display: inline-block;
-	content: " | ";
-	margin: 0 4px;
-}
-
-.lang-selector a {
-	color: #fff;
 }
 
 /********************************************************/
@@ -301,14 +300,6 @@ p {font-size: 1.6em;}
 	h5 {font-size: 1.8em;}
 	h6 {font-size: 1.8em;}
 	p {font-size: 1.6em;}
-
-	.userOptions {
-		display: block;
-	}
-
-	.userOptions > .button {
-		margin-left: 12px;
-	}
 
 	.featureItem {
 		flex: 0 1 calc(50% - 2em - (24px * 1.5));
