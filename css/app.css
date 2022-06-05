@@ -342,6 +342,14 @@ p {font-size: 1.6em;}
 	fill: #fff;
 }
 
+.links-list .hide {
+	visibility: hidden;
+}
+
+.github-sponsor.hide {
+	display: none;
+}
+
 /********************************************************/
 /* .open-source */
 /********************************************************/
