@@ -119,6 +119,13 @@ p {font-size: 1.6em;}
 }
 
 /********************************************************/
+/* .mainContent */
+/********************************************************/
+.mainContent {
+	margin-bottom: 24px;
+}
+
+/********************************************************/
 /* .heroHeader */
 /********************************************************/
 .heroHeader {
@@ -278,13 +285,77 @@ p {font-size: 1.6em;}
 /* .mainFooter */
 /********************************************************/
 .mainFooter {
-	text-align: center;
+	padding: 32px 0;
+	background-color: rgba(0,0,0, 0.1);
+}
+
+/********************************************************/
+/* .footer-block */
+/********************************************************/
+.footer-block {
 	margin-bottom: 32px;
 }
 
-.open-source {
+.footer-block a {
+	color: rgba(255,255,255, 1);
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+}
+
+.footer-block h2 {
+	font-size: 2.4em;
+	margin-top: 0;
+	margin-bottom: 12px;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+}
+
+/********************************************************/
+/* .links-list */
+/********************************************************/
+.links-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.links-list li:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.links-list a {
+	display: inline-flex;
+	align-items: center;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+}
+
+.links-list a:hover {
+	text-decoration: underline;
+}
+
+.links-list svg {
+	width: 20px;
+	margin-right: 8px;
+}
+
+.links-list svg path {
+	fill: #fff;
+}
+
+/********************************************************/
+/* .open-source */
+/********************************************************/
+.open-source p {
+	margin: 0;
+}
+
+.open-source p:not(:last-child) {
+	margin: 8px 0;
+}
+
+.github-sponsor,
+.open-source-note {
 	font-size: 1.5em;
-	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
 }
 
@@ -313,6 +384,12 @@ p {font-size: 1.6em;}
 		line-height: 1.1em;
 	}
 
+	.mainFooter .wrapper {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
 }
 
 /********************************************************/
@@ -328,12 +405,11 @@ p {font-size: 1.6em;}
 		margin-bottom: 3em;
 	}
 
-	.mainFooter .wrapper {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	.mainFooter {
+		padding: 48px 0 48	px 0;
 	}
 
-	.mainFooter .open-source,
-	.mainFooter .lang-selector {margin: 12px 0;}
+	.open-source {
+		text-align: right;
+	}
 }
