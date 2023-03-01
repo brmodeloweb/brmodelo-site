@@ -12,7 +12,7 @@ body {
 	margin: 0;
 	color: #fff;
 	background: rgba(61,153,112,1);
-	background: linear-gradient(180deg, rgba(24,214,129,1) 0%, rgba(61,153,112,1)  100%);
+	background: linear-gradient(180deg, rgba(24,214,129,1) 0%, rgb(29, 120, 79)  100%);
 }
 
 a,
