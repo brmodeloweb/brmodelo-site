@@ -70,6 +70,36 @@ p {font-size: 1.6em;}
 }
 
 /********************************************************/
+/* .HelpTheProject */
+/********************************************************/
+.helpTheProject {
+	margin-bottom: 36px;
+}
+
+.githubStarBanner {
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid rgba(255,255,255, 0.6);
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.githubStarBanner p {
+	font-size: 2em;
+	margin: 20px;
+	text-shadow: 1px 1px 0 rgba(0,0,0, 0.4);
+}
+
+.githubStarBanner a {
+	display: inline-block;
+	text-decoration: none;
+	color:  rgb(29, 120, 79);
+}
+
+.githubStarBanner a:hover {
+	text-decoration: underline;
+}
+
+/********************************************************/
 /* .mainHeader */
 /********************************************************/
 .mainHeader {
