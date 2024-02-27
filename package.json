@@ -25,5 +25,9 @@
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@tsparticles/slim": "^3.3.0",
+		"@tsparticles/svelte": "^3.0.0"
+	}
 }

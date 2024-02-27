@@ -1,5 +1,63 @@
+<script>
+	import { particlesInit } from '@tsparticles/svelte';
+	import { onMount } from 'svelte';
+	import { loadSlim } from '@tsparticles/slim'; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+
+	let ParticlesComponent;
+
+	onMount(async () => {
+		const module = await import('@tsparticles/svelte');
+
+		ParticlesComponent = module.default;
+	});
+
+	let particlesConfig = {
+		particles: {
+			color: {
+				value: '#006655'
+			},
+			links: {
+				enable: true,
+				color: '#006655'
+			},
+			move: {
+				enable: true,
+				speed: 0.2
+			},
+			number: {
+				value: 80
+			},
+			size: {
+				value: {
+					min: 1,
+					max: 3
+				}
+			}
+		},
+		interactivity: {
+			events: {
+				onClick: {
+					enable: true,
+					mode: 'push'
+				}
+			}
+		},
+		fullScreen: {
+			enable: false,
+			zIndex: 0
+		}
+	};
+
+	let onParticlesLoaded = (event) => {
+		const particlesContainer = event.detail.particles;
+	};
+
+	void particlesInit(async (engine) => {
+		await loadSlim(engine);
+	});
+</script>
 <section id="Hero">
-	<div class="relative px-6 pt-24 pb-8 bg-green-100">
+	<div class="relative px-6 pt-24 pb-8">
 		<div class="mx-auto max-w-2xl py-32">
 			<div class="text-center">
 				<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Modelagem de banco de dados online</h1>
@@ -10,4 +68,20 @@
 			</div>
 		</div>
 	</div>
+	<svelte:component
+		id="tsparticles"
+		this="{ParticlesComponent}"
+		options="{particlesConfig}"
+		on:particlesLoaded="{onParticlesLoaded}"
+		style="position: absolute; inset: 0; z-index: 0; opacity: 0.5; pointer-events: none;"
+	/>
 </section>
+
+<style>
+	#Hero {
+		position: relative;
+		/* background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%); */
+		/* background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)); */
+		background: radial-gradient(circle at 10% 20%, rgb(116, 203, 199) 0%, rgb(220, 246, 200) 90%);
+	}
+</style>
