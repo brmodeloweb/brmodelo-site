@@ -5,7 +5,7 @@
 				<div class="lg:pr-8 lg:pt-4">
 					<div class="lg:max-w-lg">
 						<h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-							Funcionalidades que ajuda no seu aprendizado
+							Funcionalidades que ajudam no seu aprendizado
 						</h2>
 						<dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 							<div class="relative pl-9">
@@ -50,7 +50,7 @@
 				<img
 					src="https://www.brmodeloweb.com/img/hero-shot-pt-br.png"
 					alt="Tela de modelagem conceitual do BRMW"
-					class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-300 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+					class="w-[48rem] max-w-none rounded-l shadow-xl ring-1 ring-gray-300 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 					width="1280"
 					height="800"
 				/>
