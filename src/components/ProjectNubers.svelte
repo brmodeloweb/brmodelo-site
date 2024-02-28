@@ -17,7 +17,7 @@
 			</dl>
 			<div class="flex justify-center text-center">
 				<div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">Você pode ajudar a manter o BRMW no ar. 
-					<a href="#SupportUs" class="font-semibold text-green-600">
+					<a href="#SupportUs" class="font-semibold text-teal-700 hover:text-teal-800">
 						<span>Saiba mais</span>
 						<span aria-hidden="true">&rarr;</span>
 					</a>
