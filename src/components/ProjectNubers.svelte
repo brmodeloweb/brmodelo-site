@@ -4,15 +4,15 @@
 			<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 pb-16">
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">Usuários</dt>
-					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-900 ">174 mil</dd>
+					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-800">174 mil</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">Modelos criados</dt>
-					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-900">250 mil</dd>
+					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-800">250 mil</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">Acessos por mês</dt>
-					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-900">~66 mil</dd>
+					<dd class="order-first text-6xl font-semibold tracking-tight text-gray-800">~66 mil</dd>
 				</div>
 			</dl>
 			<div class="flex justify-center text-center">
