@@ -2,7 +2,7 @@
 	import GithubStars from "./GithubStars.svelte";
 </script>
 <footer id="MainFooter">
-	<div class="border-t-2">
+	<div class="border-t-1">
 		<div class="mx-auto max-w-6xl pt-12 px-6">
 			<div class="mx-auto">
 				<div class="grid max-w-xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-3">
