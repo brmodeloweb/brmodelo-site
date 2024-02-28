@@ -1,7 +1,7 @@
 <script>
 	import GithubStars from "./GithubStars.svelte";
 </script>
-<footer id="MainFooter">
+<footer id="MainFooter" data-aos="fade-up">
 	<div class="border-t-1">
 		<div class="mx-auto max-w-6xl pt-12 px-6">
 			<div class="mx-auto">

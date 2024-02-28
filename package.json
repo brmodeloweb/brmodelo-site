@@ -28,6 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tsparticles/slim": "^3.3.0",
-		"@tsparticles/svelte": "^3.0.0"
+		"@tsparticles/svelte": "^3.0.0",
+		"aos": "^2.3.4"
 	}
 }

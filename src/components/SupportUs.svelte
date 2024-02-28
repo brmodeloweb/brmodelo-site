@@ -1,6 +1,6 @@
 <section id="SupportUs">
 	<div class="bg-gray-50 border-b-2 py-24">
-		<div class="mx-auto max-w-6xl px-6">
+		<div class="mx-auto max-w-6xl px-6" data-aos="fade-up">
 			<h2 class="mb-24 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">Como você pode apoiar o BRMW?</h2>
 			<div class="mx-auto sm:mt-20 lg:mt-24">
 				<dl class="grid  grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-2">

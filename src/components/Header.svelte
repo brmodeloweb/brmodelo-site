@@ -1,4 +1,4 @@
-<header id="MainHeader" class="fixed bg-white shadow-md bg-opacity-95 inset-x-0 top-0 z-50">
+<header id="MainHeader" data-aos="fade-down" class="fixed bg-white shadow-md bg-opacity-95 inset-x-0 top-0 z-50">
 	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1">
 			<a href="#Hero" class="text-teal-800">

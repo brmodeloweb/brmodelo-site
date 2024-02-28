@@ -1,4 +1,4 @@
-<section id="ProjectNumbers">
+<section id="ProjectNumbers" data-aos="fade-up">
 	<div class="bg-white py-24 border-y-2">
 		<div class="mx-auto max-w-6xl px-6">
 			<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 pb-16">

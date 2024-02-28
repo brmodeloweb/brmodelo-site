@@ -56,7 +56,7 @@
 		await loadSlim(engine);
 	});
 </script>
-<section id="Hero">
+<section id="Hero" data-aos="fade-up">
 	<div class="relative px-6 pt-24 pb-8">
 		<div class="mx-auto max-w-2xl py-32">
 			<div class="text-center">
