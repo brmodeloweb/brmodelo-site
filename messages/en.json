@@ -15,5 +15,14 @@
 	"Numbers_models": "Created models",
 	"Numbers_models_value": "250K",
 	"Numbers_access": "Monthly access",
-	"Numbers_access_value": "~66K"
+	"Numbers_access_value": "~66K",
+	"Features_title": "Features that help you learn",
+	"Features_easy_to_use_title": "Easy to use",
+	"Features_easy_to_use_content": "The friendly and intuitive interface allows you to use the tool without complications",
+	"Features_access_from_anywhere_title": "Access from anywhere",
+	"Features_access_from_anywhere_content": "Your projects stored in the cloud and available from any device, anywhere",
+	"Features_convert_in_seconds_title": "Convert in seconds",
+	"Features_convert_in_seconds_content": "Build and convert between conceptual, logical and physical (SQL) levels",
+	"Features_visualize_relationships_title": "Visualize relationships",
+	"Features_visualize_relationships_content": "Use the relationship entity diagram to represent connections and entities"
 }
