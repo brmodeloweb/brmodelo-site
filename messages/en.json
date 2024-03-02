@@ -2,11 +2,18 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"BRMW": "BR Modelo Web",
 	"Login": "Log in",
+	"Banner_help_CTA": "Check how",
+	"Banner_help_content": "You can help keep BRMW alive.",
 	"Hero_title": "Database modeling online",
 	"Hero_tagline": "Create conceptual or logical database models and export SQL code right from your browser",
 	"Hero_cta_primary": "Create account",
 	"Header_features": "Features",
 	"Header_who_use": "Who use?",
-	"Header_support_the_project": "Support the project"
-	
+	"Header_support_the_project": "Support the project",
+	"Numbers_users": "Users",
+	"Numbers_users_value": "174K",
+	"Numbers_models": "Created models",
+	"Numbers_models_value": "250K",
+	"Numbers_access": "Monthly access",
+	"Numbers_access_value": "~66K"
 }
