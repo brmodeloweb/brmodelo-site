@@ -73,5 +73,9 @@
 	"Footer_project_feature_request": "Request a feautre",
 	"Footer_project_report": "Report a problem",
 	"Footer_community_title": "Community",
-	"Footer_proudly_open_source": "Proudly Open Source"
+	"Footer_proudly_open_source": "Proudly Open Source",
+	"Github_star_CTA_title": "Star",
+	"Github_star_CTA_contant": "Give brmodeloweb/brmodelo-app a on GitHub",
+	"Github_stargazers_title": "700+",
+	"Github_stargazers_content": "brmodeloweb/brmodelo-app has more than 700 stars on GitHub"
 }
