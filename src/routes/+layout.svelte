@@ -1,5 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
+	import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit'
+	import { i18n } from '$lib/i18n'
 	import AOS from "aos";
 	import 'aos/dist/aos.css';
 	import '../css/app.css';
@@ -11,6 +13,8 @@
 	});
 </script>
 
-<Header />
-<slot />
-<Footer />
+<ParaglideJS {i18n}>
+	<Header />
+	<slot />
+	<Footer />
+</ParaglideJS>
