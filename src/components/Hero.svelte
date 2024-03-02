@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import BRMW from './BRMW.svelte';
 	import { loadSlim } from '@tsparticles/slim'; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+	import * as m from "$paraglide/messages"
 
 	let ParticlesComponent;
 
@@ -61,10 +62,10 @@
 	<div class="relative px-6 pt-24 pb-8">
 		<div class="mx-auto max-w-2xl py-32">
 			<div class="text-center">
-				<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Modelagem de banco de dados online</h1>
-				<p class="mt-6 text-lg leading-8 text-gray-700">Crie seus modelos de banco de dados de forma simples e rápida. Com o <BRMW class="text-sm"/> você pode criar, editar e exportar SQL direto do seu navegador.</p>
+				<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{m.Hero_title()}</h1>
+				<p class="mt-6 text-lg leading-8 text-gray-700">{m.Hero_tagline()}</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6">
-					<a href="https://app.brmodeloweb.com/#!/register" class="rounded-md bg-teal-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Criar conta</a>
+					<a href="https://app.brmodeloweb.com/#!/register" class="rounded-md bg-teal-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">{m.Hero_cta_primary()}</a>
 				</div>
 			</div>
 		</div>
