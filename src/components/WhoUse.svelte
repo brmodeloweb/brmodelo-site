@@ -1,4 +1,5 @@
 <script>
+	import * as m from "$paraglide/messages"
 	import barao_de_maua from '$lib/img/users/barao_de_maua.svg';
 	import faculdade_unica from '$lib/img/users/faculdade_unica.svg';
 	import feevale from '$lib/img/users/feevale.svg';
@@ -34,7 +35,7 @@
 <section id="WhoUse" data-aos="fade-up">
 	<div class="bg-white border-b-2">
 		<div class="mx-auto max-w-7xl px-6 py-24">
-			<h2 class="mb-24 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">Quem usa?</h2>
+			<h2 class="mb-24 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">{m.Who_use_title()}</h2>
 			<div class="
 				grid
 				grid-cols-6
@@ -48,152 +49,152 @@
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifac}
-					alt="Instituto Federal do Acre"
+					alt="{m.User_ifac()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifba}
-					alt="Instituto Federal da Bahia"
+					alt="{m.User_ifba()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={iff}
-					alt="Instituto Federal Fluminense"
+					alt="{m.User_iff()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifg}
-					alt="Instituto Federal de Goiás"
+					alt="{m.User_ifg()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifmg}
-					alt="Instituto Federal de Minas Gerais"
+					alt="{m.User_ifmg()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifms}
-					alt="Instituto Federal do Mato Grosso do Sul"
+					alt="{m.User_ifms()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifpb}
-					alt="Instituto Federal da Paraíba"
+					alt="{m.User_ifpb()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifpr}
-					alt="Instituto Federal do Paraná"
+					alt="{m.User_ifpr()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifro}
-					alt="Instituto Federal de Rondônia"
+					alt="{m.User_ifro()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifrs}
-					alt="Instituto Federal do Rio Grande do Sul"
+					alt="{m.User_ifrs()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifsc}
-					alt="Instituto Federal de Santa Catarina"
+					alt="{m.User_ifsc()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ifsp}
-					alt="Instituto Federal de São Paulo"
+					alt="{m.User_ifsp()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={barao_de_maua}
-					alt="Centro Universitário Barão de Mauá"
+					alt="{m.User_bara_de_maua()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={faculdade_unica}
-					alt="Faculdade Única"
+					alt="{m.User_faculdade_unica()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={feevale}
-					alt="Universidade Feevale"
+					alt="{m.User_feevale()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={iesb}
-					alt="Instituto de Educação Superior de Brasília"
+					alt="{m.User_iesb()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufba}
-					alt="Universidade Federal da Bahia"
+					alt="{m.User_ufba()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufc}
-					alt="Universidade Federal do Ceará"
+					alt="{m.User_ufc()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufms}
-					alt="Universidade Federal de Mato Grosso do Sul"
+					alt="{m.User_ufms()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufpel}
-					alt="Universidade Federal de Pelotas"
+					alt="{m.User_ufpel()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufs}
-					alt="Universidade São Francisco"
+					alt="{m.User_ufs()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufsc}
-					alt="Universidade Federal de Santa Catarina"
+					alt="{m.User_ufsc()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={unemat}
-					alt="Uneversidade do Estado de Mato Grosso"
+					alt="{m.User_unemat()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={uni_cruzeiro_do_sul}
-					alt="Universidade Cruzeiro do Sul"
+					alt="{m.User_uni_cruzeiro_do_sul()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={unibrasil}
-					alt="UniBrasil"
+					alt="{m.User_unibrasil()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={unicesumar}
-					alt="Universidade Cesumar"
+					alt="{m.User_unicesumar()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={unisal}
-					alt="Centro Universitário Salesiano de São Paulo"
+					alt="{m.User_unisal()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={unisinos}
-					alt="Reform"
+					alt="{m.User_unisinos()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={univille}
-					alt="Univiile"
+					alt="{m.User_univille()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={uvv}
-					alt="Universidade Vila Velha"
+					alt="{m.User_uvv()}"
 				/>
 			</div>
 		</div>
