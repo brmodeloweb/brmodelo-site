@@ -1,9 +1,10 @@
 <script>
+	import * as m from "$paraglide/messages"
 	let cssClass = "";
-	export {cssClass as class}; 
+	export {cssClass as class};
 </script>
 <abbr
-	title="BR Moldelo Web"
+	title="{m.BRMW()}"
 	class="
 		inline-block
 		px-1
