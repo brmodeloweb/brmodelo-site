@@ -55,5 +55,16 @@
 	"User_unisal": "São Paulo Salesian University Center",
 	"User_unisinos": "Unisinos University",
 	"User_univille": "Univiile University",
-	"User_uvv": "Vila Velha University"
+	"User_uvv": "Vila Velha University",
+	"Support_title": "How can you support the project?",
+	"Support_github_star_title": "Starred on GitHub",
+	"Support_github_star_content": "More stars on Github means greater visibility for the project and this helps us increase our reach.",
+	"Support_suggestions_title": "Suggesting improvements",
+	"Support_suggestions_content": "Suggesting improvements helps us better understand user needs.",
+	"Support_report_bugs_title": "Reporting Bugs",
+	"Support_report_bugs_content": "All software has bugs. Reporting issues helps us improve the experience for all users.",
+	"Support_coding_title": "Opening a pull request",
+	"Support_coding_content": "If you have experience with programming or want to learn, you are welcome to contribute to the project code.",
+	"Support_donate_title": "Donating money",
+	"Support_donate_content": "This helps us cover the project's operating costs, including server, database, email sending services, among other things."
 }
