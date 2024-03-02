@@ -1,4 +1,5 @@
 <script>
+	import * as m from "$paraglide/messages"
 	import GithubStars from "./GithubStars.svelte";
 </script>
 <footer id="MainFooter" data-aos="fade-up">
@@ -8,39 +9,38 @@
 				<div class="grid max-w-xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-3">
 					<section class=" mb-6 text-gray-700">
 						<header>
-							<h2 class="mb-3 text-3xl font-semibold">Projeto</h2>
+							<h2 class="mb-3 text-3xl font-semibold">{m.Footer_project_title()}</h2>
 						</header>
 						<ul class="">
 							<li class="project-docs py-2">
 								<a href="https://docs.brmodeloweb.com/" target="_blank" rel="noopener noreferrer">
 									<svg class="inline-block h-7 w-7 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59ZM280-494Z"/></svg>
-									<span class="hover:underline">Documentação</span>
+									<span class="hover:underline">{m.Footer_project_documentation()}</span>
 								</a>
 							</li>
 							<li class="project-sponsor py-2">
 								<a href="https://github.com/sponsors/brmodeloweb" target="_blank" rel="noopener noreferrer">
 									<svg class="inline-block h-7 w-7 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
-									<span class="hover:underline">Apoie o projeto</span>
+									<span class="hover:underline">{m.Footer_project_support()}</span>
 								</a>
 							</li>
 							<li class="project-request py-2">
 								<a href="https://github.com/brmodeloweb/brmodelo-app/issues/new?assignees=&labels=Feature+request&template=feature_request.md" target="_blank" rel="noopener noreferrer">
 									<svg class="inline-block h-7 w-7 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m69.233-69.233 70.307-240.306q-19-40.615-29.269-83.236-10.27-42.621-10.27-87.225 0-78.85 29.92-148.199 29.92-69.35 81.21-120.65 51.291-51.3 120.629-81.225 69.337-29.925 148.173-29.925t148.204 29.92q69.369 29.92 120.682 81.21 51.314 51.291 81.247 120.629 29.933 69.337 29.933 148.173t-29.925 148.204q-29.925 69.369-81.225 120.682-51.3 51.314-120.65 81.247Q558.85-100.001 480-100.001q-44.604 0-87.225-10.27-42.621-10.269-83.236-29.269L69.233-69.233ZM158-158l128-38q14.769-4 28.5-3.385 13.731.616 27.5 7.385 32 16 67 24t71 8q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 36 8 71t24 67q7 13 7.692 27.5.693 14.5-3.692 28.5l-38 128Zm292.001-172.001h59.998v-120h120v-59.998h-120v-120h-59.998v120h-120v59.998h120v120ZM479-479Z"/></svg>
-									<span class="hover:underline">Requisitar funcionalidade</span>
+									<span class="hover:underline">{m.Footer_project_feature_request()}</span>
 								</a>
 							</li>
 							<li class="project-report py-2">
 								<a href="https://github.com/brmodeloweb/brmodelo-app/issues/new?assignees=&labels=&template=bug_report.md&title=" target="_blank" rel="noopener noreferrer">
 									<svg class="inline-block h-8 w-8 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M480-200q66 0 113-47t47-113v-160q0-66-47-113t-113-47q-66 0-113 47t-47 113v160q0 66 47 113t113 47Zm-73.846-130.001h147.692v-59.998H406.154v59.998Zm0-160h147.692v-59.998H406.154v59.998ZM480-440Zm0 299.999q-59.615 0-110.115-29.308-50.499-29.307-80.191-80.692H180.001v-59.998h87.078q-6.078-24.616-6.578-49.809-.5-25.192-.5-50.193h-80v-59.998h80q0-25.385.116-50.578.115-25.193 6.962-49.424h-87.078v-59.998h109.693q14.384-24.539 34-44.731 19.615-20.192 44.923-34.039l-67.846-69.077 41.383-41.383 85.231 85.23q25.692-7.846 52-7.846 26.307 0 51.999 7.846l87.231-85.23 41.384 41.383-69.078 69.077q25.308 13.847 45.155 33.731 19.846 19.885 34.23 45.039h109.693v59.998h-87.078q6.847 24.231 6.962 49.424.116 25.193.116 50.578h80v59.998h-80q0 25.001-.5 50.193-.5 25.193-6.578 49.809h87.078v59.998H670.306q-29.692 51.385-80.191 80.692-50.5 29.308-110.115 29.308Z"/></svg>
-									<span class="hover:underline">Reportar problema</span>
+									<span class="hover:underline">{m.Footer_project_report()}</span>
 								</a>
 							</li>
 						</ul>
 					</section>
-
 					<section class="mb-6 text-gray-700">
 						<header>
-							<h2 class="mb-3 text-3xl font-semibold">Comunidade</h2>
+							<h2 class="mb-3 text-3xl font-semibold">{m.Footer_community_title()}</h2>
 						</header>
 						<ul class="">
 							<li class="project-docs py-2">
@@ -71,7 +71,7 @@
 					</section>
 					<div class="flex flex-col lg:items-end lg:justify-end mb-8"> 
 						<GithubStars />
-						<p class="text-gray-700 italic text-sm">Orgulho de ser código aberto</p>
+						<p class="text-gray-700 italic text-sm">{m.Footer_proudly_open_source()}</p>
 					</div>
 				</div>
 			</div>

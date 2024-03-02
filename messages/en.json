@@ -66,5 +66,12 @@
 	"Support_coding_title": "Opening a pull request",
 	"Support_coding_content": "If you have experience with programming or want to learn, you are welcome to contribute to the project code.",
 	"Support_donate_title": "Donating money",
-	"Support_donate_content": "This helps us cover the project's operating costs, including server, database, email sending services, among other things."
+	"Support_donate_content": "This helps us cover the project's operating costs, including server, database, email sending services, among other things.",
+	"Footer_project_title": "Project",
+	"Footer_project_documentation": "Documentation",
+	"Footer_project_support": "Support the project",
+	"Footer_project_feature_request": "Request a feautre",
+	"Footer_project_report": "Report a problem",
+	"Footer_community_title": "Community",
+	"Footer_proudly_open_source": "Proudly Open Source"
 }
