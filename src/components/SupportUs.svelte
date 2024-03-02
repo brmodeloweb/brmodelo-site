@@ -1,7 +1,10 @@
+<script>
+	import BRMW from './BRMW.svelte';
+</script>
 <section id="SupportUs">
 	<div class="bg-gray-50 border-b-2 py-24">
 		<div class="mx-auto max-w-6xl px-6" data-aos="fade-up">
-			<h2 class="mb-24 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">Como você pode apoiar o BRMW?</h2>
+			<h2 class="mb-24 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">Como você pode apoiar o projeto?</h2>
 			<div class="mx-auto sm:mt-20 lg:mt-24">
 				<dl class="grid  grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-2">
 					<div class="relative py-6 pl-24 pr-6 border-2 p-8 rounded-lg bg-white">
@@ -12,7 +15,7 @@
 							<span>Com uma estrela no GitHub</span>
 						</dt>
 						<dd class="mt-2 text-base leading-7 text-gray-600">
-							<span>Projetos com muitas estrelas no Github tem mais visibilidade e isso ajuda o BRMW a crescer.</span>
+							<span>Projetos com muitas estrelas no Github tem mais visibilidade e isso ajuda o <BRMW class="text-sm"/> a crescer.</span>
 						</dd>
 					</div>
 					<div class="relative py-6 pl-24 pr-6 border-2 p-8 rounded-lg bg-white">
@@ -58,7 +61,7 @@
 							<span>Doando uma quantia em dinheiro</span>
 						</dt>
 						<dd class="mt-2 text-base leading-7 text-gray-600">
-							Isso nos ajuda a bancar os custos de operação do BRMW, incluindo servidor, banco de dados, envio de emails entre outras coisas.
+							Isso nos ajuda a bancar os custos de operação do <BRMW class="text-sm"/> , incluindo servidor, banco de dados, envio de emails entre outras coisas.
 							<a class="font-semibold text-teal-700 hover:text-teal-800" href="https://github.com/sponsors/brmodeloweb" target="_blank">Saiba mais</a>
 						</dd>
 					</div>
