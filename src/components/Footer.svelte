@@ -71,11 +71,11 @@
 						</ul>
 					</section>
 					<div class="flex flex-col lg:items-end lg:justify-between  mb-8">
+						<LanguageSwitcher />
 						<div>
 							<GithubStars />
 							<p class="text-gray-700 italic text-sm text-right">{m.Footer_proudly_open_source()}</p>
 						</div>
-						<LanguageSwitcher />
 					</div>
 				</div>
 			</div>
