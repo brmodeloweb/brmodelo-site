@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit'
 	import { i18n } from '$lib/i18n'
+	import Analytics from '$lib/analytics.svelte';
 	import AOS from "aos";
 	import 'aos/dist/aos.css';
 	import '../css/app.css';
@@ -13,6 +14,7 @@
 	});
 </script>
 
+<Analytics />
 <ParaglideJS {i18n}>
 	<Header />
 	<slot />
