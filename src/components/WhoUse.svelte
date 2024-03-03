@@ -48,78 +48,6 @@
 			>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifac}
-					alt="{m.User_ifac()}"
-					title="{m.User_ifac()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifba}
-					alt="{m.User_ifba()}"
-					title="{m.User_ifba()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={iff}
-					alt="{m.User_iff()}"
-					title="{m.User_iff()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifg}
-					alt="{m.User_ifg()}"
-					title="{m.User_ifg()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifmg}
-					alt="{m.User_ifmg()}"
-					title="{m.User_ifmg()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifms}
-					alt="{m.User_ifms()}"
-					title="{m.User_ifms()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifpb}
-					alt="{m.User_ifpb()}"
-					title="{m.User_ifpb()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifpr}
-					alt="{m.User_ifpr()}"
-					title="{m.User_ifpr()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifro}
-					alt="{m.User_ifro()}"
-					title="{m.User_ifro()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifrs}
-					alt="{m.User_ifrs()}"
-					title="{m.User_ifrs()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifsc}
-					alt="{m.User_ifsc()}"
-					title="{m.User_ifsc()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ifsp}
-					alt="{m.User_ifsp()}"
-					title="{m.User_ifsp()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={barao_de_maua}
 					alt="{m.User_bara_de_maua()}"
 					title="{m.User_bara_de_maua()}"
@@ -225,6 +153,78 @@
 					src={uvv}
 					alt="{m.User_uvv()}"
 					title="{m.User_uvv()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifac}
+					alt="{m.User_ifac()}"
+					title="{m.User_ifac()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifba}
+					alt="{m.User_ifba()}"
+					title="{m.User_ifba()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={iff}
+					alt="{m.User_iff()}"
+					title="{m.User_iff()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifg}
+					alt="{m.User_ifg()}"
+					title="{m.User_ifg()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifmg}
+					alt="{m.User_ifmg()}"
+					title="{m.User_ifmg()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifms}
+					alt="{m.User_ifms()}"
+					title="{m.User_ifms()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifpb}
+					alt="{m.User_ifpb()}"
+					title="{m.User_ifpb()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifpr}
+					alt="{m.User_ifpr()}"
+					title="{m.User_ifpr()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifro}
+					alt="{m.User_ifro()}"
+					title="{m.User_ifro()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifrs}
+					alt="{m.User_ifrs()}"
+					title="{m.User_ifrs()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifsc}
+					alt="{m.User_ifsc()}"
+					title="{m.User_ifsc()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ifsp}
+					alt="{m.User_ifsp()}"
+					title="{m.User_ifsp()}"
 				/>
 			</div>
 		</div>
