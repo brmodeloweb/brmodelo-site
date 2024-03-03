@@ -48,30 +48,6 @@
 			>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={barao_de_maua}
-					alt="{m.User_bara_de_maua()}"
-					title="{m.User_bara_de_maua()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={faculdade_unica}
-					alt="{m.User_faculdade_unica()}"
-					title="{m.User_faculdade_unica()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={feevale}
-					alt="{m.User_feevale()}"
-					title="{m.User_feevale()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={iesb}
-					alt="{m.User_iesb()}"
-					title="{m.User_iesb()}"
-				/>
-				<img
-					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufba}
 					alt="{m.User_ufba()}"
 					title="{m.User_ufba()}"
@@ -96,15 +72,39 @@
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={ufsc}
+					alt="{m.User_ufsc()}"
+					title="{m.User_ufsc()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
 					src={ufs}
 					alt="{m.User_ufs()}"
 					title="{m.User_ufs()}"
 				/>
+					<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={barao_de_maua}
+					alt="{m.User_bara_de_maua()}"
+					title="{m.User_bara_de_maua()}"
+				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
-					src={ufsc}
-					alt="{m.User_ufsc()}"
-					title="{m.User_ufsc()}"
+					src={faculdade_unica}
+					alt="{m.User_faculdade_unica()}"
+					title="{m.User_faculdade_unica()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={feevale}
+					alt="{m.User_feevale()}"
+					title="{m.User_feevale()}"
+				/>
+				<img
+					class="col-span-2 w-full object-contain lg:col-span-1"
+					src={iesb}
+					alt="{m.User_iesb()}"
+					title="{m.User_iesb()}"
 				/>
 				<img
 					class="col-span-2 w-full object-contain lg:col-span-1"
