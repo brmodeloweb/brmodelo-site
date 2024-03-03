@@ -1,6 +1,7 @@
 <script>
 	import * as m from "$paraglide/messages"
 	import GithubStars from "./GithubStars.svelte";
+	import LanguageSwitcher from "./LanguageSwitcher.svelte";
 </script>
 <footer id="MainFooter" data-aos="fade-up">
 	<div class="border-t-1">
@@ -69,9 +70,12 @@
 							</li>
 						</ul>
 					</section>
-					<div class="flex flex-col lg:items-end lg:justify-end mb-8"> 
-						<GithubStars />
-						<p class="text-gray-700 italic text-sm">{m.Footer_proudly_open_source()}</p>
+					<div class="flex flex-col lg:items-end lg:justify-between  mb-8">
+						<div>
+							<GithubStars />
+							<p class="text-gray-700 italic text-sm text-right">{m.Footer_proudly_open_source()}</p>
+						</div>
+						<LanguageSwitcher />
 					</div>
 				</div>
 			</div>
