@@ -9,9 +9,7 @@
 			<div class="mx-auto">
 				<div class="grid max-w-xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-3">
 					<section class=" mb-6 text-gray-700">
-						<header>
-							<h2 class="mb-3 text-3xl font-semibold">{m.Footer_project_title()}</h2>
-						</header>
+						<h2 class="mb-3 text-xl font-semibold">{m.Footer_project_title()}</h2>
 						<ul class="">
 							<li class="project-docs py-2">
 								<a href="https://docs.brmodeloweb.com/" target="_blank" rel="noopener noreferrer">
@@ -40,9 +38,7 @@
 						</ul>
 					</section>
 					<section class="mb-6 text-gray-700">
-						<header>
-							<h2 class="mb-3 text-3xl font-semibold">{m.Footer_community_title()}</h2>
-						</header>
+						<h2 class="mb-3 text-xl font-semibold">{m.Footer_community_title()}</h2>
 						<ul class="">
 							<li class="project-docs py-2">
 								<a href="https://twitter.com/brmodeloweb" target="_blank" rel="noopener noreferrer">
