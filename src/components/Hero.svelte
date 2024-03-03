@@ -1,7 +1,7 @@
 <script>
 	import { particlesInit } from '@tsparticles/svelte';
 	import { onMount } from 'svelte';
-	import BRMW from './BRMW.svelte';
+	import SupportBanner from './SupportBanner.svelte';
 	import { loadSlim } from '@tsparticles/slim'; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 	import * as m from "$paraglide/messages"
 
@@ -62,6 +62,7 @@
 	<div class="relative px-6 pt-24 pb-8">
 		<div class="mx-auto max-w-2xl py-32">
 			<div class="text-center">
+				<SupportBanner class="mb-8" />
 				<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{m.Hero_title()}</h1>
 				<p class="mt-6 text-lg leading-8 text-gray-700">{m.Hero_tagline()}</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6">
