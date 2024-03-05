@@ -8,7 +8,8 @@
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"postinstall": "paraglide-js compile --project ./project.inlang"
+		"postinstall": "paraglide-js compile --project ./project.inlang",
+		"deploy": "npm build && npx gh-pages -d build"
 	},
 	"devDependencies": {
 		"@inlang/paraglide-js": "1.2.7",
@@ -21,6 +22,7 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+		"gh-pages": "^6.1.1",
 		"postcss": "^8.4.35",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
