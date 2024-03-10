@@ -11,6 +11,9 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$paraglide: "./src/paraglide",
+		},
+		paths: {
+			relative: false,
 		}
 	}
 };
