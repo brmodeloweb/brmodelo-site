@@ -9,7 +9,7 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"postinstall": "paraglide-js compile --project ./project.inlang",
-		"deploy": "npm build && npx gh-pages -d build"
+		"deploy": "npm run build && npx gh-pages -d build"
 	},
 	"devDependencies": {
 		"@inlang/paraglide-js": "1.2.7",
