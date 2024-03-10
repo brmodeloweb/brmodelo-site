@@ -1,5 +1,6 @@
 <script>
 	import * as m from "$paraglide/messages"
+	import HeroShot from '$lib/img/hero-shot-pt-br.png'
 </script>
 
 <section id="Features">
@@ -50,8 +51,8 @@
 					</div>
 				</div>
 				<img
-					src="https://www.brmodeloweb.com/img/hero-shot-pt-br.png"
-					alt="Tela de modelagem conceitual do BRMW"
+					src="{HeroShot}"
+					alt="{m.Features_img_alt()}"
 					class="w-[48rem] max-w-none rounded-l shadow-xl ring-1 ring-gray-300 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 					width="1280"
 					height="800"
