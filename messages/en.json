@@ -1,6 +1,8 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"BRMW": "BR Modelo Web",
+	"title": "BRMW - Online Database Modeling",
+	"Og_description": "Online and open source tool for database modeling",
+	"BRMW": "BR Modelo Web (BRMW)",
 	"Login": "Log in",
 	"Banner_help_CTA": "Check how",
 	"Banner_help_content": "You can help keep BRMW alive.",
