@@ -1,6 +1,6 @@
 # BRMW Website
 
-[SOON: Website screenshot here]
+![Hero shot](https://raw.githubusercontent.com/brmodeloweb/brmodelo-site/master/static/site-hero-shot.png)
 
 ## Tech stack
 
