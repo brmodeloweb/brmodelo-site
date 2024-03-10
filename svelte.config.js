@@ -11,9 +11,6 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$paraglide: "./src/paraglide",
-		},
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/brmodelo-site' : '',
 		}
 	}
 };
