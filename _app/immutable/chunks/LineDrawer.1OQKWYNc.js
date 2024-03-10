@@ -1,0 +1,1 @@
+function a(n){const{context:e,particle:o,radius:r}=n,t=o.shapeData,i=0;e.moveTo(-r,i),e.lineTo(r,i),e.lineCap=(t==null?void 0:t.cap)??"butt"}const c=1;class s{draw(e){a(e)}getSidesCount(){return c}}export{s as LineDrawer};
