@@ -4,5 +4,9 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: var(--gray-95);
+}
+
+::selection {
+	color: #000;
+	background-color: #7DCEC7;
 }
