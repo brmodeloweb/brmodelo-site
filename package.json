@@ -31,6 +31,10 @@
 		"vite": "^7.2.2"
 	},
 	"type": "module",
+	"engines": {
+		"node": ">=20.0.0",
+		"pnpm": ">=9.0.0"
+	},
 	"dependencies": {
 		"@inlang/paraglide-js-adapter-sveltekit": "^0.5.5",
 		"@tsparticles/slim": "^3.3.0",
