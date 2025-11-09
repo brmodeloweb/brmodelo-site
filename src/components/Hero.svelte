@@ -1,16 +1,20 @@
 <script>
-	import { particlesInit } from '@tsparticles/svelte';
 	import { onMount } from 'svelte';
 	import SupportBanner from './SupportBanner.svelte';
-	import { loadSlim } from '@tsparticles/slim'; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 	import * as m from "$paraglide/messages"
 
 	let ParticlesComponent;
 
 	onMount(async () => {
 		const module = await import('@tsparticles/svelte');
+		const { particlesInit } = module;
+		const { loadSlim } = await import('@tsparticles/slim');
 
 		ParticlesComponent = module.default;
+
+		void particlesInit(async (engine) => {
+			await loadSlim(engine);
+		});
 	});
 
 	let particlesConfig = {
@@ -53,10 +57,6 @@
 	let onParticlesLoaded = (event) => {
 		const particlesContainer = event.detail.particles;
 	};
-
-	void particlesInit(async (engine) => {
-		await loadSlim(engine);
-	});
 </script>
 <section id="Hero" data-aos="fade-up">
 	<div class="relative px-6 pt-24 pb-8">
