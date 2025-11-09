@@ -10,20 +10,20 @@
 
 ## Developing
 
-1. Install dependencies: `npm install` (or `pnpm install` or `yarn`)
-1. Start development server: `npm run dev`
+1. Install dependencies: `pnpm install`
+1. Start development server: `pnpm run dev`
 
 ## Building
 
 Preview production version:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 Create a production version:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 ---
